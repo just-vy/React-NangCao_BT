@@ -88,6 +88,7 @@ class TamGiac{
         return `|\t${this.ma}|\t${this.mb}|\t${this.mc}|${this.kieuTamGiac()}|${this.tinhChuVi()}|${this.tinhDienTich().toFixed(2)}|`;
     }
 
+    // b. Viết hàm main tạo 5 hình tam giác: 2 hình vi phạm ràng buộc, 3 hình là tam giác thường, cân, đều. Xuất thông tin các hình này theo dạng bảng.
     static main(): void{
         console.log(this.header());
         const t1 = new TamGiac(0, 4, 6);
